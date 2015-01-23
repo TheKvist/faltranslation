@@ -1,7 +1,6 @@
 <?php
 namespace T3easy\Faltranslation\Persistence\Generic\Mapper;
 
-
 class ColumnMap extends \TYPO3\CMS\Extbase\Persistence\Generic\Mapper\ColumnMap {
 
 	/**

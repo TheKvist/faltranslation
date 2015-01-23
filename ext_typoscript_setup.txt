@@ -1,0 +1,15 @@
+config.tx_extbase {
+	objects {
+		TYPO3\CMS\Extbase\Domain\Model\FileReference.className = T3easy\Faltranslation\Domain\Model\FileReference
+		TYPO3\CMS\Extbase\Persistence\Generic\Mapper\ColumnMap.className = T3easy\Faltranslation\Persistence\Generic\Mapper\ColumnMap
+		TYPO3\CMS\Extbase\Persistence\Generic\Mapper\DataMapFactory.className = T3easy\Faltranslation\Persistence\Generic\Mapper\DataMapFactory
+		TYPO3\CMS\Extbase\Persistence\Generic\Mapper\DataMapper.className = T3easy\Faltranslation\Persistence\Generic\Mapper\DataMapper
+	}
+	persistence.classes {
+		T3easy\Faltranslation\Domain\Model\FileReference {
+			mapping {
+				tableName = sys_file_reference
+			}
+		}
+	}
+}

@@ -12,7 +12,7 @@ class DataMapper extends \TYPO3\CMS\Extbase\Persistence\Generic\Mapper\DataMappe
 	 * @param bool $forceTranslationOverlay
 	 * @return \TYPO3\CMS\Extbase\Persistence\QueryInterface
 	 */
-	protected function getPreparedQuery(\TYPO3\CMS\Extbase\DomainObject\DomainObjectInterface $parentObject, $propertyName, $fieldValue = '', $forceTranslationOverlay) {
+	protected function getPreparedQuery(\TYPO3\CMS\Extbase\DomainObject\DomainObjectInterface $parentObject, $propertyName, $fieldValue = '', $forceTranslationOverlay = FALSE) {
 		$columnMap = $this->getDataMap(get_class($parentObject))->getColumnMap($propertyName);
 		$type = $this->getType(get_class($parentObject), $propertyName);
 		$query = $this->queryFactory->create($type);

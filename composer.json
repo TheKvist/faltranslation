@@ -1,7 +1,7 @@
 {
     "name": "t3easy/faltranslation",
     "type": "typo3-cms-extension",
-    "version": "1.0.2",
+    "version": "2.0.0",
     "license": "GPL-2.0+",
     "authors": [
         {
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "typo3/cms-core": "~6.2.16"
+        "typo3/cms-core": "~7.6.1"
     },
     "replace": {
         "faltranslation": "*"

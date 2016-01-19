@@ -1,0 +1,23 @@
+{
+    "name": "t3easy/faltranslation",
+    "type": "typo3-cms-extension",
+    "version": "1.0.2",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Jan Kiesewetter",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "~6.2.16"
+    },
+    "replace": {
+        "faltranslation": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "T3easy\\Faltranslation\\": "Classes/"
+        }
+    }
+}

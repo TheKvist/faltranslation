@@ -1,7 +1,6 @@
 {
     "name": "t3easy/faltranslation",
     "type": "typo3-cms-extension",
-    "version": "2.0.0",
     "license": "GPL-2.0+",
     "authors": [
         {

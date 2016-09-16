@@ -2,6 +2,7 @@
     "name": "t3easy/faltranslation",
     "type": "typo3-cms-extension",
     "license": "GPL-2.0+",
+    "description": "Work around https://forge.typo3.org/issues/57272",
     "authors": [
         {
             "name": "Jan Kiesewetter",

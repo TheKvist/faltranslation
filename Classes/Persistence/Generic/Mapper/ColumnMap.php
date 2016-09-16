@@ -10,7 +10,7 @@ class ColumnMap extends \TYPO3\CMS\Extbase\Persistence\Generic\Mapper\ColumnMap
     protected $relationsOverriddenByTranslation;
 
     /**
-     * @return boolean
+     * @return bool
      */
     public function isRelationsOverriddenByTranslation()
     {
@@ -18,7 +18,7 @@ class ColumnMap extends \TYPO3\CMS\Extbase\Persistence\Generic\Mapper\ColumnMap
     }
 
     /**
-     * @param boolean $relationsOverriddenByTranslation
+     * @param bool $relationsOverriddenByTranslation
      */
     public function setRelationsOverriddenByTranslation($relationsOverriddenByTranslation)
     {

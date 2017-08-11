@@ -103,6 +103,10 @@ class DataMapFactory extends \TYPO3\CMS\Extbase\Persistence\Generic\Mapper\DataM
             $columnMap->setRelationsOverriddenByTranslation($columnConfiguration['behaviour']['localizationMode'] !== 'keep');
         }
 
+        if (isset($columnConfiguration['behaviour']['allowLanguageSynchronization'])) {
+            $columnMap->setRelationsOverriddenByTranslation($columnConfiguration['behaviour']['allowLanguageSynchronization']);
+        }
+
         return $columnMap;
     }
 }
